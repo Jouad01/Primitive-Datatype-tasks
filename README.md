@@ -59,15 +59,14 @@ The same mechanics as in the previous task but with an example
 Create a new text file called "TestFile.txt" in C:\
 Jouad\PowerShell\Workshop1\%USERNAME%
 The cmdlet to create a new file and directory starts with "New" Notes:
+Path names may not match.
 
 Create Directory:
 
 ![](Images/Screenshot_12.png)
-Segundo:
 
 ![](Images/Screenshot_13.png)
 
-Tercero:
 
 ![](Images/Screenshot_14.png)
 
@@ -77,27 +76,47 @@ Create file:
 
 ## Task 4
 
+Populate the text file you created in task 3 with all three
+datatypes we’ve covered: “Boolean”, “String” and “Int”
+The cmdlet you need starts with “Add”
+
 ![](Images/Screenshot_16.png)
 
 ## Task 5
 
+Read from the text file and use “Get-Member” to find the
+datatype returned
+The cmdlet you need to read data from the text file begins to “Get” 
+
 ![](Images/Screenshot_17.png)
 
 ## Task 6
+
+Overwrite all data within the text file that you created in task
+3.
+The cmdlet you need starts with “Set”
 
 ![](Images/Screenshot_18.png)
 
 
 ## Task 7
 
+Format the data returned by a cmdlet into a list
+You will need to pipe the original cmdlet then use the “Format-List” cmdlet
+
 ![](Images/Screenshot_19.png)
 
 
 ## Task 8
 
+Pipe “Get-Command” into “Out-GridView”
+
 ![](Images/Screenshot_20.png)
 
 ## Task 9
+
+Pipe the 5 cmdlets you discovered in task 1 into “Out
+GridView”
 
 ````
 Get-Help | Out-GridView
@@ -114,5 +133,8 @@ Get-ControlPanelItem | Out-GridView
 ![](Images/Screenshot_25.png)
 
 ## Task 10
+
+Find the official PowerShell documentation library from
+Microsoft
 
 ![](Images/Screenshot_26.png)
